@@ -7,6 +7,10 @@ import { CustomMaterialModule } from './custom-material/custom-material.module';
   imports: [
     CommonModule,
     CustomMaterialModule
+  ],
+  exports: [
+    CommonModule,
+    CustomMaterialModule
   ]
 })
 export class CustomCommonModule { }
